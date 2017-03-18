@@ -6,9 +6,9 @@ class BubbleSort
   end
   
   def sort
-    # number of times we'll loop through
+    # number of times we'll loop through.
     n = @letters_to_sort.length
-    
+
     while @swapped == false
       (n-1).times do |index|
         if @letters_to_sort[index] > @letters_to_sort[index + 1]
