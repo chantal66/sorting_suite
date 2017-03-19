@@ -32,5 +32,5 @@ end
 sorter = BubbleSort.new(["d", "b", "a", "c"])
 p sorter.sort
 
-# sorting_numbers = BubbleSort.new([4,65,6,8,10])
-# p sorting_numbers.sort
+sorting_numbers = BubbleSort.new([4,65,6,8,10])
+p sorting_numbers.sort
